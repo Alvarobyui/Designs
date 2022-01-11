@@ -59,7 +59,6 @@ body{
 
 .footer-grid {
   grid-column: 1/4;
-  grid-row: 13/14;
   text-align: center;
   background-color:#FF5959;
   color: white;
