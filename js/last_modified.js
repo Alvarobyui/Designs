@@ -25,6 +25,9 @@ let months = [
 let d = new Date();
 let dayName = dayNames[d.getDate()];
 let monthName = months[d.getMonth()];
-let fullDate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
+let hour = d.getHours();
+let min = d.getMinutes();
+let sec = d.getSeconds();
+let fullDate = monthName + " " + d.getDate() + ", " + d.getFullYear() + " -- " + hour + ":" + min + ":" + sec;
 
 document.getElementById("currentDate").textContent = fullDate;
