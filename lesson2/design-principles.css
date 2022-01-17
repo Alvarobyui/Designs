@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Merriweather&display=swap');
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+:root{
+--primary-color: #3c6e71;
+--secundary-color: #353535;
+--background-color: #d9d9d9;
+}
+
+header{
+    background-color: #3c6e71;  
+    
+}
+h1, h2{
+    color: white;
+    text-align: center; 
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+p{
+    text-align: justify;
+}
+h1, h2, h3, p, a{
+    margin-left: 5px;
+    font-family: 'Merriweather', serif;
+
+}
+section{
+    background-color: #d9d9d9;
+    border: 1px solid #353535;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+.titles{
+    background-color: var(--secundary-color);
+    color: white;
+}
+
+img{
+    inline-size: 100%;
+}
+
+.main-grid{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
