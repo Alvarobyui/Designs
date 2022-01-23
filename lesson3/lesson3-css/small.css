@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@300&display=swap');
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 16px;
+}
+a {
+    color: #2B4560;
+    font-family: 'Patua One', cursive;
+}
+nav ul{
+    list-style-type: none;
+}
+
+body {
+    background-color:#E1E7E0;
+    
+}
+
+h1 {
+    color: #2B4560;
+    font-family: 'Patua One', cursive;
+
+}
+
+nav a:hover {
+    background-color: #6AA4B0;
+    color: white;
+}
+
+footer{
+    background-color: #2B4560;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
