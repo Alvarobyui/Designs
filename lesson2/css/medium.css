@@ -1,0 +1,16 @@
+@media (min-width: 30.5em) {
+    .main-grid {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);  
+        grid-gap: 1em;  
+    }
+    .visual-grid {
+        grid-column: 1/2;
+    }
+    .hick-grid {
+        grid-column: 2/3;
+    }
+    .fitt-grid {
+        grid-column: 1/3;
+    }
+}
