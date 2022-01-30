@@ -1,0 +1,18 @@
+@media only screen and (min-width: 34em) {
+    header{
+        display: flex;
+    }
+    a{
+        color: #2B4560;
+        font-family: 'Patua One', cursive;
+        font-size: 0.95rem;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+}
