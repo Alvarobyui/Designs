@@ -16,3 +16,17 @@
     }
     
 }
+
+.top-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.nav-links {
+    grid-column: 2/5;
+}
+
+.social-icons{
+    grid-column: 5/6;
+    display: flex;
+}
