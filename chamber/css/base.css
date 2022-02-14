@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@300&display=swap');
 
+/*
+--Primary-color -- #2B4560
+--Secundary color -- white
+--Auxiliary Color (if needed) -- #6AA4B0
+--Background color -- #E1E7E0
+*/
+
 header,
 nav,
 main,
@@ -7,20 +14,31 @@ footer {
 	max-width: 960px;
 	margin: 0 auto;
 }
-nav a{
+
+nav button {
+    margin: 0;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #2B4560;
+    font-family: 'Patua One', cursive;
+    font-size: 1rem;
     display: block;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-    font-size: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+    
 }
-a {
-    color: #2B4560;
-    font-family: 'Patua One', cursive;
-}
-nav ul{
-    list-style-type: none;
-}
+
 
 body {
     background-color:#E1E7E0;
@@ -31,11 +49,6 @@ h1 {
     color: #2B4560;
     font-family: 'Patua One', cursive;
 
-}
-
-nav a:hover {
-    background-color: #6AA4B0;
-    color: white;
 }
 
 footer{
@@ -49,6 +62,22 @@ ul{
     padding: 0px;  
 }
 
+
+nav{
+    background-color: #E1E7E0;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #6AA4B0;
+    color: white;
+}
+
+/* Social icons*/
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -72,18 +101,6 @@ background: #007bb5;
 color: white;
 }
 
-.top-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
 .social-icons {
-    grid-column: 1/2;
-    grid-row: 2/3;
     display: flex;
 }
-.date {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-

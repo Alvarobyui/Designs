@@ -15,6 +15,9 @@
         overflow: hidden;
     }
     
+    .top-grid {
+        display: grid;
+    }
     .nav-links {
         grid-column: 2/5;
     }
