@@ -1,20 +1,35 @@
-@media only screen and (min-width: 30.5em) {
+@media only screen and (min-width: 40em) {
     header{
         display: flex;
     }
-    a{
-        color: #2B4560;
-        font-family: 'Patua One', cursive;
-        font-size: 0.75em;
-    }
-    nav ul{
+
+    nav ul#primaryNav {
         display: flex;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
+
+    nav ul li a{
+        color: #2B4560;
+        font-family: 'Patua One', cursive;
+        font-size: 0.75em;
+    }
+
     
+    nav button {display: none;}
+
+    nav ul {
+        display: flex;
+    }
+    nav.date {
+        margin-left: 100px;
+    }
+    
+    
+
+    /*THw social icons*/
     .top-grid {
         display: grid;
     }

@@ -14,6 +14,9 @@ footer {
 	max-width: 960px;
 	margin: 0 auto;
 }
+main.main-grid {
+    margin-left: 2vw;
+}
 
 nav button {
     margin: 0;
@@ -77,6 +80,10 @@ nav ul li a:hover {
     color: white;
 }
 
+/*hamburger button appears and hides*/
+nav ul {display: none;}
+nav ul.open {display: block;}
+
 /* Social icons*/
 .fa {
     padding: 20px;
@@ -103,4 +110,5 @@ color: white;
 
 .social-icons {
     display: flex;
+    margin-left: 2vw;
 }
