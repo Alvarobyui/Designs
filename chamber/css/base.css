@@ -7,10 +7,8 @@
 --Background color -- #E1E7E0
 */
 
-header,
-nav,
-main,
-footer {
+
+body {
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -51,6 +49,11 @@ body {
 h1 {
     color: #2B4560;
     font-family: 'Patua One', cursive;
+
+}
+h2 {
+    color: #2B4560;
+    font-family: 'Roboto', cursive;
 
 }
 
@@ -118,4 +121,31 @@ color: white;
 .social-icons {
     display: flex;
     margin-left: 2vw;
+}
+
+.top-grid {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    gap: 1rem;
+}
+
+.brand {
+    display: flex;
+}
+.perchamb {
+    margin-left: -19px;
+    margin-top: 12px;
+}
+
+.social-icons {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.nav-links {
+    grid-column: 3/4;
+}
+
+.date {
+    grid-row: 2;
 }

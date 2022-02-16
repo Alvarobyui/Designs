@@ -1,8 +1,8 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 50em) {
     header{
         display: flex;
     }
-
+    
     nav ul#primaryNav {
         display: flex;
         list-style-type: none;
@@ -30,17 +30,5 @@
     
 
     /*THw social icons*/
-    .top-grid {
-        display: grid;
-    }
-    .nav-links {
-        grid-column: 2/5;
-    }
-    
-    .social-icons {
-        grid-column: 5/6;
-        grid-row: 1/2;
-        display: flex;
-    }
-    
+   
 }
