@@ -4,10 +4,10 @@ const list = document.querySelector('ul');
 
 button.addEventListener('click', function() {
     let myItem = input.value;
-    if (not(input.value == "")) {
+    if (input.value != "") {
         const listItem = document.createElement('li');
         const listBtn = document.createElement('button');
-
+        const listText = document.createElement("ul")
         listItem.appendChild(listText);
         listText.textContent = myItem;
         listItem.appendChild(listBtn);
@@ -16,6 +16,7 @@ button.addEventListener('click', function() {
 
         listBtn.onclick = function(e) {
         list.removeChild(listItem);
+   
     }
     }
     
