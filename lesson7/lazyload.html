@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment Portal from Alvaro Diaz, BYUI, WDD 230">
     <title>AlvaroDiaz-imageLoading</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/base.css">
    
     
 </head>
 
 <body>
     <h1>Image Loading</h1>
-    <div>images</div>
-    <div>images</div>
-    <div>images</div>
+    <picture>
+      <img src="../images/my_photo.jpg" alt="Photo1">
+    </picture>
+    <picture>
+      <img src="../images/fitts-law-ex.jpeg" alt="Photo2">
+    </picture>
+    <picture>
+      <img src="../images/hicks-law-ex.jpeg" alt="Photo3">
+    </picture>
+    <picture>
+      <img src="../images/my_photo.jpg" alt="Photo4">
+    </picture>
+    <picture>
+      <img src="../images/fitts-law-ex.jpeg" alt="Photo5">
+    </picture>
+    <picture>
+      <img src="../images/hicks-law-ex.jpeg" alt="Photo6">
+    </picture>
     <footer class="footer-grid">
         <div>&copy;2021 .:|:. Alvaro M. Diaz .:|:. Perú</div>
-        <div>Last Updated: <span id="currentDate"></span> </div>
     </footer>
-    <script src="js/last_modified.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 
 </html>
