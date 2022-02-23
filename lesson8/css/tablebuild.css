@@ -1,3 +1,59 @@
+:root {
+    --back: hsla(150, 50%, 30%, 1);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+    --forelight: hsla(0,0%,100%,1);
+    --border: hsl(0,0%,20%);
+    --borderlight: hsl(0,0%,33%);
+    --shadow: hsl(0,0%,50%);
+    --zebra: hsl(0, 0%, 93%, 1);
+    }
+
 body {
     font-family: Ubuntu, sans-serif;   
+}
+
+table {
+    border: thin solid var(--shadow);
+    box-shadow: 10px 10px 10px var(--shadow);
+    border-collapse: collapse; 
+}
+
+tfoot td {
+    padding: 10px;
+}
+
+tr:first-child th {
+    background-color: var(--back);
+    color: var(--forelight);
+    font-size: large;
+    padding: 0.5rem;
+}
+
+#highlight {
+    background-color: var(--back2);
+}
+
+#footer {
+    background-color: var(--back);
+    color: var(--forelight);
+    font-size: small;
+    border: thin solid var(--borderlight);
+}
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+tr th {
+    background-color: var(--back2);
+    padding: 0.4rem;
+    border: thin solid var(--borderlight);
+}
+tr td {
+    padding: 0.4rem;
+    border: thin solid;
 }
