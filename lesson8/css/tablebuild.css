@@ -9,11 +9,15 @@
     --zebra: hsl(0, 0%, 93%, 1);
     }
 
+h1{
+    text-align: center;
+}
 body {
-    font-family: Ubuntu, sans-serif;   
+    font-family: Ubuntu, sans-serif;
 }
 
 table {
+    margin: auto;
     border: thin solid var(--shadow);
     box-shadow: 10px 10px 10px var(--shadow);
     border-collapse: collapse; 
