@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join Form, Alvaro Diaz, BYUI, WDD 230">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Join - Alvaro Diaz</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <form method="get" action="thankyou.html">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" value="Ex. John" required><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" value="Ex. Monson" required><br>
+        <label for="position">Position (Optional)</label><br>
+        <input type="text" id="title" name="position" pattern="[A-Za-z{7, 25}]"><br>
+        <label for="email">Email</label><br>
+        <input type="email" value="Ex. jhonJhonson@email.com" required><br>
+        <label for="telephone">Phone Number</label><br>
+        <input type="tel" required><br>
+        <label for="Business name">Business Name</label><br>
+        <input type="text" required><br><br>
+
+        <label for="business_description">Brief description of your business:</label>
+        <textarea id="textarea" name="business_description" rows="5" cols="60"></textarea><br><br>
+
+        <input type="checkbox" id="level1" name="NP" value="membership">
+        <label for="vehicle1">
+            NP Membership:
+            <ul>
+                <li><h4>Free</h4></li>
+                <li>No Fees</li>
+                <li>One Year of Exclusive News</li>
+            </ul> 
+        </label><br><br>
+        <input type="checkbox" id="level2" name="bronze" value="membership">
+        <label for="vehicle2">
+            Bronze Membership:
+            <ul>
+                <li><h4>$50/Year</h4></li>
+                <li>One Year of Exclusive News</li>
+                <li>One Year of Full Event Participation</li>
+                <li>Our T-shirt of member</li>
+                <li>Card to enter into our club</li>
+            </ul> 
+        </label><br><br>
+        <input type="checkbox" id="level3" name="silver" value="membership">
+        <label for="vehicle2">
+            Silver Membership:
+            <ul>
+                <li><h4>$69/Year</h4></li>
+                <li>One Year of Exclusive News</li>
+                <li>One Year of Full Event Participation</li>
+                <li>Our T-shirt and water bottle of member</li>
+                <li>Card to enter into our club</li>
+                <li>$20 in bonnus to spend in our sponsoring stores</li>
+            </ul> 
+        </label><br><br>
+        <input type="checkbox" id="level4" name="gold" value="membership">
+        <label for="vehicle3">
+            Golden Membership:
+            <ul>
+                <li><h4>$89/Year</h4></li>
+                <li>One Year of Exclusive News</li>
+                <li>One Year of Full Event Participation</li>
+                <li>Our golden T-shirt and water bottle of member</li>
+                <li>VIP Card to enter into our club</li>
+                <li>$40 in bonnus to spend in our sponsoring stores</li>
+                <li>Premium seat in all of our events(including snack)</li>
+            </ul>
+        </label><br><br>
+        <input type="hidden" id="cur_date" name="current_date" value="much">
+        <input type="submit" value="Join">
+       
+    </form>
+    <script defer src="js/date.js"></script> 
+    <script defer src="js/menu.js"></script>
+</body>
+
+</html>
