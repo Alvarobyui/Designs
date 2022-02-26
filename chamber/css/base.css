@@ -7,7 +7,6 @@
 --Background color -- #E1E7E0
 */
 
-
 body {
 	max-width: 960px;
 	margin: 0 auto;
@@ -190,3 +189,39 @@ section {
     grid-column: 1/5;
    
 }
+
+
+/*FORM*/
+form {
+	max-width: 100%;
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	background-color: #6AA4B0;
+	display: block;
+	
+}
+label {
+	text-align: center;
+	font-weight: 700;
+}
+
+input[type="submit"] {
+	margin: 1rem 2.5rem;
+	color: #222;
+	font-weight: 700;
+
+}
+
+textarea{
+    max-width: 100%;
+}
+
+input{
+    max-width: 100%;
+}
+
+label ul {
+    list-style-type: none;
+}
+

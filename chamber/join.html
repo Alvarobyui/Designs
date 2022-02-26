@@ -16,9 +16,34 @@
 </head>
 
 <body>
+    <header class="top-grid">
+        <div class="brand">
+            <img class="logo" src="images/Ninja.svg" alt="My_own_photo" height="50px">
+            <h2 class="perchamb">PerChamb</h2>
+        </div>
+        <nav class="nav-links">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="#" >Contact</a></li>
+              <li><a href="#" >About us</a></li>
+              <li class="active"><a href="join.html" >Join</a></li>
+              
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/alvaro.diazandia/" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/alvaro-marcelo-diaz-115093230/" class="fa fa-linkedin"></a>
+        </div>
+        <div class="date"></div>
+    </header>
+    <h1>Join us</h1>
+    <h2>
+        Please, fill the following form: 
+    </h2>
     <form method="get" action="thankyou.html">
-        <label for="fname">First Name</label><br>
-        <input type="text" id="fname" name="fname" value="Ex. John" required><br>
+        <div class="form-box"><label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" value="Ex. John" required><br></div>
         <label for="lname">Last Name</label><br>
         <input type="text" id="lname" name="lname" value="Ex. Monson" required><br>
         <label for="position">Position (Optional)</label><br>
@@ -30,8 +55,8 @@
         <label for="Business name">Business Name</label><br>
         <input type="text" required><br><br>
 
-        <label for="business_description">Brief description of your business:</label>
-        <textarea id="textarea" name="business_description" rows="5" cols="60"></textarea><br><br>
+        <label for="business_description">Brief description of your business:</label><br>
+        <textarea id="textarea" name="business_description"></textarea><br><br>
 
         <input type="checkbox" id="level1" name="NP" value="membership">
         <label for="vehicle1">
@@ -68,7 +93,7 @@
         <input type="checkbox" id="level4" name="gold" value="membership">
         <label for="vehicle3">
             Golden Membership:
-            <ul>
+            <ul class="form">
                 <li><h4>$89/Year</h4></li>
                 <li>One Year of Exclusive News</li>
                 <li>One Year of Full Event Participation</li>
@@ -83,7 +108,7 @@
        
     </form>
     <script defer src="js/date.js"></script> 
-    <script defer src="js/menu.js"></script>
+    
 </body>
 
 </html>

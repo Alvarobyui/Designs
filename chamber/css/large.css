@@ -23,5 +23,11 @@
         grid-column: 4/5;
         grid-row: 1/7;
     }
-
+    
+    /*FORMS*/
+    .form-box {
+        display: flex;
+    }
 }
+
+
