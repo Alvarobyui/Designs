@@ -15,6 +15,7 @@ function displayProphets(prophet) {
     let h2 = document.createElement('h2');
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = "${prophets[i].name} ${prophets[i].lastname}";
+    //`Hello ${name1}`
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
   // Add/append the existing HTML div with the cards class with the section(card)
