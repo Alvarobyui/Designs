@@ -152,14 +152,6 @@ color: white;
 
 /*Sections*/
 
-.sections {
-    width: 100%;
-    height: auto;
-    /*background: rgba(0, 0, 0, 0.2);*/
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 section {
     width: 100%;
     height: 300px;
@@ -167,6 +159,13 @@ section {
     margin: 20px;
     box-sizing: border-box;
     border-style: ridge;
+}
+.sections {
+    width: 100%;
+    height: auto;
+    /*background: rgba(0, 0, 0, 0.2);*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .hero-and-call {

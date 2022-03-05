@@ -10,14 +10,24 @@ fetch(requestURL)
     prophets.forEach(displayProphets);
   }); 
 
-function displayProphets(prophet) {
+  function displayProphets(prophet) {
+    // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+    let portrait = document.createElement('img');
+  
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = "${prophets[i].name} ${prophets[i].lastname}";
-    //`Hello ${name1}`
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
+  
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    ____.setAttribute('src', prophet.imageurl);
+    ____.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
+    ____.setAttribute('loading', 'lazy');
+  
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
-  // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
-}
+    card.appendChild(portrait);
+  
+    // Add/append the existing HTML div with the cards class with the section(card)
+    cards.appendChild(card);
+  }
