@@ -1,27 +1,14 @@
-@media only screen and (min-width: 64em) {
-    nav ul li a {
-        padding: 0.5rem 1rem;
-    }
-
-
+@media only screen and (min-width: 55em) {
     /*SECTIONS*/
-    .sections {
-        background-color: #2B4560;
+    .sections{
         display: grid;
-        grid-template-columns: 150px auto 150px;
-        grid-template-rows: repeat(3, 150px);
-        gap: 10px; 
-    } 
-    .sections > *{
-        background-color: #6AA4B0;
-        border: 1px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: repeat(6, 1fr);
     }
-    
+    .event{
+        grid-column: 1/ span 2;
+    }
     .hero-and-call {
-        grid-column: 2/3;
+        grid-column: 2/ span 3;
         grid-row: 1/ span 2;
     }
     .spotlight {
