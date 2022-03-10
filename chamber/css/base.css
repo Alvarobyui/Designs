@@ -150,6 +150,7 @@ color: white;
 }
 
 
+
 /*SECTIONS*/
 .sections {
     background-color: #2B4560;
@@ -166,6 +167,10 @@ color: white;
     align-items: center;
 }
 
+.footer-grid{
+    grid-row: span 2;
+    display: inline;
+}
 
 
 
