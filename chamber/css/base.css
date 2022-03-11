@@ -124,7 +124,7 @@ color: white;
 /*Navigation*/
 .top-grid {
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
@@ -169,13 +169,16 @@ color: white;
 
 .footer-grid{
     grid-row: span 2;
-    display: inline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
-/*
-.chamber-meeting {
-    display: none;
+.footer-grid > * {
+    padding: 10px;
+    border-top: 5px #222;
+    display: flex;
+    justify-content: center;
 }
-*/
 
 
 /*FORM*/
