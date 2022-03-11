@@ -171,7 +171,11 @@ color: white;
     grid-row: span 2;
     display: inline;
 }
-
+/*
+.chamber-meeting {
+    display: none;
+}
+*/
 
 
 /*FORM*/
