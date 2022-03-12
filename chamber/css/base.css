@@ -153,9 +153,9 @@ color: white;
 
 /*SECTIONS*/
 .sections {
-    background-color: #2B4560;
+    /*background-color: #2B4560;*/
     display: grid;
-    grid-template-rows: repeat(7, 150px);
+    grid-template-rows: repeat(7, 300px);
     gap: 10px; 
     margin-top: 60px;
 } 
@@ -166,8 +166,10 @@ color: white;
     justify-content: center;
     align-items: center;
 }
-
-.footer-grid{
+.hero-and-call {
+    grid-row: 1/2;
+}
+.footer-grid {
     grid-row: span 2;
     flex-wrap: wrap;
     flex-direction: column;
@@ -175,10 +177,11 @@ color: white;
 }
 .footer-grid > * {
     padding: 10px;
-    border-top: 5px #222;
     display: flex;
     justify-content: center;
 }
+
+
 
 
 /*FORM*/
@@ -215,3 +218,8 @@ label ul {
     list-style-type: none;
 }
 
+/*Images*/
+picture img {
+    height: 18rem;
+    border: 1px solid black;
+}
