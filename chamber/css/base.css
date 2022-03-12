@@ -223,3 +223,16 @@ picture img {
     height: 18rem;
     border: 1px solid black;
 }
+
+/*weather flexbox*/
+.weather {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.weather-img {
+    border: 1px solid black;
+    box-shadow: 5px 5px #2B4560;
+    margin-bottom: 10px;
+}
