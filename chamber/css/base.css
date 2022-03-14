@@ -236,3 +236,13 @@ picture img {
     box-shadow: 5px 5px #2B4560;
     margin-bottom: 10px;
 }
+
+/*Discover images*/
+.discover-images {
+    display: grid;
+    gap: 5px;
+}
+.discover-images > * {
+    border: 1px solid black;
+    box-shadow: 5px 5px #2B4560;
+}
