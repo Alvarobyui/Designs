@@ -2,7 +2,7 @@
     /*sections*/
     .sections {
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         gap: 5px    ;
     } 
     
@@ -21,8 +21,8 @@
         flex-direction: column;
     }
     .join {
-        grid-column: 4/ 6;
-        grid-row: 4/ 5;
+        grid-column: 1/6;
+        grid-row: 4/5;
     }
     .event {
         grid-column: 1/2;

@@ -139,11 +139,14 @@ color: white;
 .social-icons {
     grid-column: 2/3;
     grid-row: 1;
-    max-width: 15px;
+    max-width: 10%;
+    max-width: 10%;
 }
 
 .nav-links {
     grid-column: 4/5;
+    margin-left: -50px;
+    margin-top: 10px;
 }
 
 .date {
