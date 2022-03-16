@@ -53,6 +53,24 @@
         height: 14rem;
         border: 1px solid black;
     }
+
+
+     /*Discover page*/
+     .discover-images {
+        display: grid;
+        gap: 30px;
+        grid-auto-rows: 22rem;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+    .container:hover {
+        box-shadow: 0 0 50px #333;
+    }
 }
 
 
