@@ -139,10 +139,11 @@ color: white;
 .social-icons {
     grid-column: 2/3;
     grid-row: 1;
+    max-width: 15px;
 }
 
 .nav-links {
-    grid-column: 3/4;
+    grid-column: 4/5;
 }
 
 .date {
@@ -239,10 +240,28 @@ picture img {
 
 /*Discover images*/
 .discover-images {
-    display: grid;
-    gap: 5px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
 }
 .discover-images > * {
-    border: 1px solid black;
-    box-shadow: 5px 5px #2B4560;
+    border: 1px solid #2B4560;
+    box-shadow: 3px 3px #2B4560;
+    border-radius: 10px;
+}
+.discover-h1 {
+    border: none;
+    box-shadow: none;
+}
+
+.discover-images h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2B4560;
+}
+[data-src]{
+    min-width: 50px;
+    min-width: 50px;
 }
