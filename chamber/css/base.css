@@ -82,6 +82,7 @@ nav ul li a:hover {
     color: white;
 }
 
+
 /*hamburger button appears and hides*/
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -130,22 +131,25 @@ color: white;
 
 .brand {
     display: flex;
+    font-size: 0.7rem;
+    margin-left: -20px;
 }
 .perchamb {
-    margin-left: -19px;
-    margin-top: 12px;
+    margin-left: -30px;
+    margin-top: 16px;
 }
 
 .social-icons {
     grid-column: 2/3;
-    grid-row: 1;
+    grid-row: 1/2;
     max-width: 10%;
     max-width: 10%;
+
 }
 
 .nav-links {
     grid-column: 4/5;
-    margin-left: -50px;
+    margin-left: -100px;
     margin-top: 10px;
 }
 
@@ -169,6 +173,7 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 200px;
 }
 .hero-and-call {
     grid-row: 1/2;
@@ -224,8 +229,9 @@ label ul {
 
 /*Images*/
 picture img {
-    height: 18rem;
+    height: 14rem;
     border: 1px solid black;
+    width: 18rem;
 }
 
 /*weather flexbox*/
