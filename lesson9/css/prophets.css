@@ -1,0 +1,18 @@
+img{
+    border: 5px solid black;
+}
+
+section {
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+}
