@@ -66,4 +66,12 @@
     nav.date {
         margin-left: 100px;
     }
+
+    /*Images*/
+    picture img {
+        height: 80%;
+        border: 1px solid black;
+        width: 100%;
+}
+
 }

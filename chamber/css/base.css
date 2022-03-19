@@ -229,9 +229,9 @@ label ul {
 
 /*Images*/
 picture img {
-    height: 14rem;
+    height: 100%;
     border: 1px solid black;
-    width: 18rem;
+    width: 100%;
 }
 
 /*weather flexbox*/
