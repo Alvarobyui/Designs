@@ -8,7 +8,7 @@
 */
 
 body {
-	max-width: 960px;
+	
 	margin: 0 auto;
 }
 main.main-grid {
@@ -35,10 +35,12 @@ nav ul li a {
     padding: 1rem;
     text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-
     
 }
 
+.brand{
+    text-decoration: none;
+}
 
 body {
     background-color:#E1E7E0;

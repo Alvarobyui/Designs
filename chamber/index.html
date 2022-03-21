@@ -17,14 +17,14 @@
 
 <body>
     <header class="top-grid">
-        <div class="brand">
+        <a class="brand" href="index.html">
             <img class="logo" src="images/Ninja.svg" alt="My_own_photo" height="50">
             <h2 class="perchamb">PerChamb</h2>
-        </div>
+        </a>
         <nav class="nav-links">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-              <li class="active"><a href="#" >Home</a></li>
+              <li class="active"><a href="index.html" >Home</a></li>
               <li><a href="discover.html" >Discover</a></li>
               <li><a href="directory.html" >Directory</a></li>
               <li><a href="join.html" >Join</a></li>
@@ -56,10 +56,10 @@
             <div>Spotlight 3</div>
         </section>
         <section class="weather">
-            <h2>Weather</h2>
-            <img class="weather-img" src="images/weather.jpg" alt="image for weather" height="100">
-            <div id="weather">33°C</div>
-            <h3>Party Cloudy</h3>
+            <h1>Weather</h1>
+            <span id="weatherIcon"></span>
+            <h2><span id="temperature"></span> &#8451;</h2>
+            <h2 id="condition"></h2>
             <div class="wind">Wind Speed: <span id="windSpeed">Km/h</span></div>
             <div class="chill">Wind Chill: <span id="windChill"></span></div>
         </section>
@@ -87,6 +87,7 @@
     </div>
     <script defer src="js/date.js"></script> 
     <script defer src="js/menu.js"></script>
+    <script defer src="js/weather.js"></script>
 </body>
 
 </html>
