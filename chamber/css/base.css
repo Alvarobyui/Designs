@@ -190,11 +190,14 @@ color: white;
     justify-content: center;
 }
 .news-release{
-    grid-row: span 2;
+    grid-row: 2/span 2;
 }
 .weather {
+    grid-row: 7/ span 2;
     display: flex;
     flex-direction: column;
+    background-color: #6AA4B0;
+    border: 1px solid black;
 }
 .spotlight {
     display: flex;
