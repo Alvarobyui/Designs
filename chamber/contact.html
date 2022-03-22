@@ -24,11 +24,11 @@
         <nav class="nav-links">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-              <li class="active"><a href="index.html" >Home</a></li>
+              <li ><a href="index.html" >Home</a></li>
               <li><a href="discover.html" >Discover</a></li>
               <li><a href="directory.html" >Directory</a></li>
               <li><a href="join.html" >Join</a></li>
-              <li><a href="contact.html" >Contacts</a></li>
+              <li><a class="active" href="contact.html">Contact</a></li>
               
             </ul>
         </nav>
@@ -38,21 +38,54 @@
         </div>
         <div class="date"></div>
     </header>
-    <div class="sections">
-        <footer class="footer-grid">
-            <div class="brand">
-                <img class="logo" src="images/Ninja.svg" alt="My_own_photo" height="50">
-                <h2 class="perchamb">PerChamb</h2>
+    <main>
+        <h1>Contact the Chamber</h1>
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3 class="contact-title">Visit us</h3>
+                <p class="paragraph"><strong>PerChamb Chamber Commerce</strong></p>
+                <p class="paragraph">Av. Las Golondrinas #500 - Cusco</p>
+                <p class="paragraph">+51 924 126 535</p>
             </div>
-            <div class="contacts">alvaro.m.diaz@gmail.com<br>
-            +51 924126535</div>
-            <a href="https://www.google.com/maps/@-13.5371948,-71.9543208,17.75z" target="blank">Location Map<i class="fa fa-map-marker" style="font-size:40px;color:red"></i></a>
-            <div>&copy;<span id="onlyYear"></span> PerChamb | Alvaro M. Diaz | WDD 230 Project | Perú | <div id="lastModified"></div></div>
-        </footer>
-    </div>
+            <div class="contact-form">
+                <h3 class="contact-title">Get in touch</h3>
+                <form id="contact">
+                    <div class="form-box">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" value="Ex. John" required><br>
+                    </div>
+                    <div class="form-box">
+                        <label for="org">Organization</label><br>
+                        <input type="text" id="org" name="org" value="Ex. Monson" required><br>
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email</label><br>
+                        <input type="email" value="Ex. albertomartinez@email.com" required><br>
+                    </div>
+                    <div class="form-box">
+                        <label for="telephone">Phone Number</label><br>
+                        <input type="tel" required><br>
+                    </div>
+                    <label for="business_description">What questions do you have for the PerChamber?</label><br>
+                    <textarea id="contact-textarea" name="questions"></textarea><br><br>
+                    <input type="hidden" id="contact-date" name="_date" value="much">
+                    <input type="submit" id="submit-btn" value="Send">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-grid">
+        <div class="brand">
+            <img class="logo" src="images/Ninja.svg" alt="My_own_photo" height="50">
+            <h2 class="perchamb">PerChamb</h2>
+        </div>
+        <div class="contacts">alvaro.m.diaz@gmail.com<br>
+        +51 924126535</div>
+        <a href="https://www.google.com/maps/@-13.5371948,-71.9543208,17.75z" target="blank">Location Map<i class="fa fa-map-marker" style="font-size:40px;color:red"></i></a>
+        <div>&copy;<span id="onlyYear"></span> PerChamb | Alvaro M. Diaz | WDD 230 Project | Perú | <div id="lastModified"></div></div>
+    </footer>
     <script defer src="js/date.js"></script> 
     <script defer src="js/menu.js"></script>
-    <script defer src="js/weather.js"></script>
 </body>
 
 </html>

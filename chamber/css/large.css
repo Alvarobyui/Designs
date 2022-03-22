@@ -58,6 +58,13 @@
 
 
      /*Discover page*/
+    .contact-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+     
      .discover-images {
         display: grid;
         gap: 30px;
@@ -72,6 +79,53 @@
     }
     .container:hover {
         box-shadow: 0 0 50px #333;
+    }
+
+    /*Contact Form*/
+    input{
+        height: 1.5rem;
+        margin-bottom: 10px;
+    }
+    textarea {
+        width: 96%;
+        height: 4rem;
+    }
+    .contact-form{
+        margin-top: 5rem;
+        max-width: 550px;
+        background: #E1E7E0;
+        border: 3px solid #6AA4B0;
+        
+    }
+    /*Contact info*/
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        background: #E1E7E0;
+        border: 3px solid #6AA4B0;
+        max-width: 550px;
+    }
+    .paragraph {
+        margin-left: 0px;
+        line-height: 0.3rem;
+        
+    }
+    .contact-title {
+        margin-left: 17px;
+    }
+
+    /*News*/
+    .news-box a img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .news-box {
+        background-color: #6AA4B0;
+        border: 1px solid black;
+    }
+    .news-release {
+        display: flex;
+        gap: 15px;
     }
 }
 
