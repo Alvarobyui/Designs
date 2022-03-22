@@ -8,9 +8,9 @@ fetch(apiURL)
 
 function displayWeather(jsObject) {
   document.querySelector('#temperature').textContent = jsObject.main.temp;
-  document.querySelector('#condition').textContent = jsObject.weather.description;
-  document.querySelector('#weatherIcon').textContent = jsObject.main.temp;
-  document.querySelector('#windSpeed').textContent = jsObject.main.temp;
+  //document.querySelector('#condition').textContent = jsObject.weather.0.description;
+  //document.querySelector('#weatherIcon').textContent = jsObject.main.temp;
+  //document.querySelector('#windSpeed').textContent = jsObject.main.temp;
   document.querySelector('#windChill').textContent = jsObject.main.feels_like;
 
 }
