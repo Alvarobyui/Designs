@@ -10,31 +10,31 @@
     }
     .news-release {
         grid-column: 1/ span 6;
-        grid-row: 4/ span 1;
+        grid-row: 3/ span 3;
     }
     .spotlight {
         grid-column: 1/ span 6;
-        grid-row: 7/ span 1;
+        grid-row: 7/ span 4;
     }
     .join {
         grid-column: 1/ span 6;
-        grid-row: 10/ span 1;
+        grid-row: 11/ span 1;
     }
     .event {
         grid-column: 1/ span 4;
-        grid-row: 11/ span 1;
+        grid-row: 12/ span 1;
     }
     .weather {
         grid-column: 5/ span 2;
-        grid-row: 12/ span 1;
+        grid-row: 13/ span 1;
     }
     .footer-grid {
         grid-column: 1/ span 6;
-        grid-row: 14/ span 2;
+        grid-row: 15/ span 2;
     }
     #meetingBanner {
         grid-column: 1/ span 6;
-        grid-row: 13/span 1;
+        grid-row: 14/span 1;
     }
 
 
