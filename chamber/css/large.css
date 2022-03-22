@@ -2,45 +2,43 @@
     /*sections*/
     .sections {
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         gap: 5px    ;
     } 
     
     .hero-and-call {
         grid-column: 1/6;
         grid-row: 1/2;
-        background-color: #6AA4B0;
-        border: 1px solid black;
     }
     .news-release {
-        grid-column: 2/4;
-        grid-row: 3/5;
+        grid-column: 1/4;
+        grid-row: 2/3;
     }
     .spotlight {
         grid-column: 4/6;
-        grid-row: 3/5;
+        grid-row: 2/4;
         display: flex;
         flex-direction: column;
     }
-    .join {
-        grid-column: 1/6;
-        grid-row: 4/5;
-    }
-    .event {
-        grid-column: 1/5;
-        grid-row: 5/7;
-    }
     .weather {
-        grid-column: 5/6;
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    .join {
+        grid-column: 1/4;
         grid-row: 5/6;
     }
     #meetingBanner {
         grid-column: 1/4;
         grid-row: 4/5;
     }
+    .event {
+        grid-column: 4/6;
+        grid-row: 4/6;
+    }
     .footer-grid {
         grid-column: 1/6;
-        grid-row: 5/ span 2;
+        grid-row: 6/ span 1;
     }
     
     
@@ -54,7 +52,8 @@
 
     /*Images*/
     picture img {
-        height: 14rem;
+        height: 100%;
+        width: 100%;
         border: 1px solid black;
     }
 
